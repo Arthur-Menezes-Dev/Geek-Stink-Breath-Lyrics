@@ -1,0 +1,160 @@
+@media screen and (min-width: 600px) {
+  main{
+    min-height: 1500px;
+  }
+}
+
+html{
+  background-color: #FF4500 ;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+#container{
+  text-align: center;
+  background-color: #FF4500 ;
+  Display: flex ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:100% ;
+  margin: 0px;
+  
+}
+
+
+nav{
+  width:100% ;
+  Height:50px ;
+  margin-top: 0px;
+  background-color: #F4A460;
+  padding: 20px;
+  Display: flex ;
+  flex-direction: row;
+  align-items: start;
+  justify-content: flex-start;
+}
+
+
+header{
+ width: 100% ;
+ background-color: 	#FF7F50;
+ padding: 20px;
+  Display: flex ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#FF4500, #fad0c4);
+}
+
+
+main{
+ width:100% ;
+  Display: flex ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#FF4500, #FF6347);
+}
+
+
+section{
+ width:100% ;
+}
+
+
+footer{
+ width:100% ;
+ background-color: 	#f49f96;
+ padding: 20px;
+}
+
+#headerTitle{
+  color: aliceblue;
+  font-family: Impact, fantasy;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+#footerTitle{
+  color: aliceblue;
+  font-size: 30px;
+  font-family: Georgia, serif; 
+}
+
+.button1{
+  background-color: #EE82EE;
+  border: solid 5px 	#DDA0DD;
+  border-radius: 20px;
+  color: aliceblue;
+  height: 40px;
+}
+
+.button1:hover{
+  background-color: 	#FF1493;
+  border: solid 5px 	#C71585;
+  border-radius: 20px;
+  color: aliceblue;
+  height: 40px;
+}
+
+.text1{
+  color: aliceblue;
+  font-size: 20px;
+   line-height: 25px;
+  font-family:Bookman, "URW Bookman L", serif;
+}
+
+#bar1{
+  height: 40px;
+  border-radius: 20px;
+}
+
+#headersec1{
+  Display: flex ;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+}
+
+.dropdown{
+  display: inline-block;
+}
+
+.dropdown button{
+  background-color: blue;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.dropdown a{
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.dropdown .content{
+  display: none;
+  position: absolute;
+  background-color: hsl(0, 0%, 95%);
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsla(0,0%,0%,0.8);
+}
+
+.dropdown:hover .content{
+  display: block;
+}
+
+.dropdown:hover .button{
+  background-color: green;
+}
+
+.dropdown:hover a{
+  background-color: yellowgreen;
+}
