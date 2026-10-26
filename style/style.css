@@ -4,12 +4,21 @@
   }
 }
 
+
+
+
 html{
   background-color: #FF4500 ;
   text-align: center;
   padding: 0px;
   margin: 0px;
 }
+
+
+
+
+
+
 
 
 #container{
@@ -21,8 +30,14 @@ html{
   justify-content: center;
   width:100% ;
   margin: 0px;
-  
+ 
 }
+
+
+
+
+
+
 
 
 nav{
@@ -35,13 +50,20 @@ nav{
   flex-direction: row;
   align-items: start;
   justify-content: flex-start;
+  gap: 15px;
 }
 
 
+
+
+
+
+
+
 header{
- width: 100% ;
- background-color: 	#FF7F50;
- padding: 20px;
+  width: 100% ;
+  background-color:  #FF7F50;
+  padding: 20px;
   Display: flex ;
   flex-direction: column;
   align-items: center;
@@ -50,14 +72,27 @@ header{
 }
 
 
+
+
+
+
+
+
 main{
- width:100% ;
+  width:100% ;
   Display: flex ;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   background: linear-gradient(#FF4500, #FF6347);
+  gap: 40px
 }
+
+
+
+
+
+
 
 
 section{
@@ -65,52 +100,85 @@ section{
 }
 
 
+
+
+
+
+
+
 footer{
  width:100% ;
- background-color: 	#f49f96;
+ background: linear-gradient(to top, #FFD700, #FF8C00);
  padding: 20px;
 }
 
+
+
+
 #headerTitle{
-  color: aliceblue;
+  color:  #8B0000;
   font-family: Impact, fantasy;
   font-size: 60px;
   font-weight: bolder;
+  background: linear-gradient(to top, #FFD700, #FF8C00);
 }
+
+
+
 
 #footerTitle{
   color: aliceblue;
   font-size: 30px;
-  font-family: Georgia, serif; 
+  font-family: Georgia, serif;
+  color:  #8B0000;
 }
+
+
+
 
 .button1{
   background-color: #EE82EE;
-  border: solid 5px 	#DDA0DD;
+  border: solid 5px   #DDA0DD;
   border-radius: 20px;
   color: aliceblue;
   height: 40px;
 }
 
+
+
+
 .button1:hover{
-  background-color: 	#FF1493;
-  border: solid 5px 	#C71585;
+  background-color:   #FF1493;
+  border: solid 5px   #C71585;
   border-radius: 20px;
   color: aliceblue;
   height: 40px;
 }
+
+
+
 
 .text1{
   color: aliceblue;
   font-size: 20px;
-   line-height: 25px;
-  font-family:Bookman, "URW Bookman L", serif;
+  line-height: 25px;
+  font-family: Palatino, "URW Palladio L", serif;
+  color:  #000000;
 }
+
+
+.textGrow:hover{
+  background-color:   #D3D3D3;
+}
+
 
 #bar1{
   height: 40px;
   border-radius: 20px;
 }
+
+
+
 
 #headersec1{
   Display: flex ;
@@ -119,9 +187,15 @@ footer{
   justify-content: center;
 }
 
+
+
+
 .dropdown{
   display: inline-block;
 }
+
+
+
 
 .dropdown button{
   background-color: blue;
@@ -129,8 +203,11 @@ footer{
   padding: 10px 15px;
   border: none;
   cursor: pointer;
-  
+ 
 }
+
+
+
 
 .dropdown a{
   display: block;
@@ -138,6 +215,9 @@ footer{
   text-decoration: none;
   padding: 10px 15px;
 }
+
+
+
 
 .dropdown .content{
   display: none;
@@ -147,14 +227,53 @@ footer{
   box-shadow: 2px 2px 5px hsla(0,0%,0%,0.8);
 }
 
+
+
+
 .dropdown:hover .content{
   display: block;
 }
+
+
+
 
 .dropdown:hover .button{
   background-color: green;
 }
 
+
+
+
 .dropdown:hover a{
   background-color: yellowgreen;
+}
+
+
+#liricsPart{
+  text-align: start;
+  margin: 10px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+
+
+
+#mainAds{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 50%;
+}
+
+
+.ads{
+  background-color: black;
+  color: white;
+  border: solid 5px   #800000;
+  border-radius:  #800000;
+  height: 600px;
 }
